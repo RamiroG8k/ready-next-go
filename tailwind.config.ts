@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -11,10 +11,10 @@ const config: Config = {
         background: 'hsl(var(--color-background) / <alpha-value>)',
         content: 'hsl(var(--color-content) / <alpha-value>)',
         primary: {
-          DEFAULT: 'hsl(var(--color-primary) / <alpha-value>)',
+          DEFAULT: 'hsl(var(--color-primary) / <alpha-value>)'
         },
         secondary: {
-          DEFAULT: 'hsl(var(--color-secondary) / <alpha-value>)',
+          DEFAULT: 'hsl(var(--color-secondary) / <alpha-value>)'
         },
         disabled: {
           DEFAULT: 'hsl(var(--color-disabled) / <alpha-value>)'
@@ -22,6 +22,6 @@ const config: Config = {
       }
     }
   },
-  plugins: [],
-}
-export default config
+  plugins: []
+};
+export default config;

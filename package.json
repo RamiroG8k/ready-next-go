@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "start:local": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start:build": "next start",
+    "lint": "next lint --dir .",
+    "lint:fix": "next lint --dir . --fix"
   },
   "dependencies": {
     "@svgr/webpack": "^8.1.0",

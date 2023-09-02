@@ -5,5 +5,5 @@ export default function Home() {
     <main className="flex min-h-screen justify-center items-center p-24 bg-background">
       <NextLogo className="text-7xl text-primary" />
     </main>
-  )
+  );
 }
